@@ -32,6 +32,10 @@ public class TestCalculadora {
 		prom = new Calculadora();
 		promedio = prom.promediar(10, 8, 9);
 		System.out.println("El promedio es: " + promedio);
+		
+		Calculadora resultado;
+		resultado = new Calculadora();
+		resultado.mostrarResultado();
 	}
 
 }
