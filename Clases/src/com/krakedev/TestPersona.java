@@ -23,6 +23,12 @@ public class TestPersona {
 		System.out.println("Estatura: " + p.getEstatura());
 		System.out.println("********");
 		System.out.println("Nombre 2: " + p2.getNombre());
+		
+		Persona p3 = new Persona("Pablo");
+		Persona p4 = new Persona("Mario", 54, 1.72);
+		System.out.println("Nombre: " + p4.getNombre());
+		System.out.println("Edad: " + p4.getEdad());
+		System.out.println("Estatura: " + p4.getEstatura());
 	}
 
 }

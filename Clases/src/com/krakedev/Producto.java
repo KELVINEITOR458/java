@@ -5,6 +5,14 @@ public class Producto {
 	private String descripcion;
 	private double precio;
 	private int stockAnual;
+	
+	public Producto(String nombre, String descripcion, double precio, int stockAnual) {
+		this.nombre = nombre;
+		this.descripcion = descripcion;
+		this.precio = precio;
+		this.stockAnual = stockAnual;
+	}
+	
 	public String getNombre() {
 		return nombre;
 	}

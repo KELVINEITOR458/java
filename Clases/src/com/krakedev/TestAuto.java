@@ -6,16 +6,8 @@ public class TestAuto {
 		Auto auto1;
 		Auto auto2;
 		
-		auto1 = new Auto();
-		auto2 = new Auto();
-		
-		auto1.setMarca("Chevrolet"); 
-		auto1.setAnio(2020);
-		auto1.setPrecio(40.001);
-		
-		auto2.setMarca("Audi");
-		auto2.setAnio(2018);
-		auto2.setPrecio(37.001);
+		auto1 = new Auto("Chevrolet", 2020, 40.001);
+		auto2 = new Auto("Audi", 2018, 37.001);
 		
 		System.out.println("AUTO 1..");
 		System.out.println("Marca: " + auto1.getMarca());
