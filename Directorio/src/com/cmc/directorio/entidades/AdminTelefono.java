@@ -22,4 +22,22 @@ public class AdminTelefono {
 
 		return contador;
 	}
+	
+	public int contarClaro(Telefono tel1, Telefono tel2, Telefono tel3, Telefono tel4) {
+		int contador = 0;
+		if(tel1.getOperadora() == "Claro") {
+			contador = contador + 1;
+		}
+		if(tel2.getOperadora() == "Claro") {
+			contador = contador + 1;
+		}
+		if(tel3.getOperadora() == "Claro") {
+			contador = contador + 1;
+		}
+		if(tel4.getOperadora() == "Claro") {
+			contador = contador + 1;
+		}
+
+		return contador;
+	}
 }
