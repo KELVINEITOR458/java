@@ -226,8 +226,6 @@ public class MaquinaDulces {
 				celda = celda4;
 			}
 		}
-		
-		
 		return celda;
 	}
 	
