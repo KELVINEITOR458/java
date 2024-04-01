@@ -6,6 +6,12 @@ public class EstadoCivil {
 	public EstadoCivil() {
 		
 	}
+	
+	public EstadoCivil(String codigo) {
+		super();
+		this.codigo = codigo;
+	}
+
 	public EstadoCivil(String codigo, String descripcion) {
 		super();
 		this.codigo = codigo;
